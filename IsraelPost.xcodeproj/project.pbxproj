@@ -17,6 +17,13 @@
 		1E27DEBD1643AFA3001797F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E27DE9D1643AFA3001797F2 /* Cocoa.framework */; };
 		1E27DEC51643AFA3001797F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E27DEC31643AFA3001797F2 /* InfoPlist.strings */; };
 		1E27DEC81643AFA3001797F2 /* IsraelPostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E27DEC71643AFA3001797F2 /* IsraelPostTests.m */; };
+		1E27DF4B1643B98A001797F2 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E27DF301643B98A001797F2 /* TFHpple.m */; };
+		1E27DF4C1643B98A001797F2 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E27DF321643B98A001797F2 /* TFHppleElement.m */; };
+		1E27DF521643B98A001797F2 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E27DF3B1643B98A001797F2 /* XPathQuery.m */; };
+		1E2FAFF716676482003F3CA6 /* israel-post-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2FAFF616676482003F3CA6 /* israel-post-logo.jpg */; };
+		1E2FAFFA16676E60003F3CA6 /* israel-post-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2FAFF916676E5F003F3CA6 /* israel-post-logo.png */; };
+		1E2FAFFC16676E67003F3CA6 /* israel-post-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2FAFFB16676E67003F3CA6 /* israel-post-logo.png */; };
+		1E6003A01643CC6400DB9A11 /* israel-post-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E60039F1643CC6400DB9A11 /* israel-post-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,16 @@
 		1E27DEC41643AFA3001797F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E27DEC61643AFA3001797F2 /* IsraelPostTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsraelPostTests.h; sourceTree = "<group>"; };
 		1E27DEC71643AFA3001797F2 /* IsraelPostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsraelPostTests.m; sourceTree = "<group>"; };
+		1E27DF2F1643B98A001797F2 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		1E27DF301643B98A001797F2 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		1E27DF311643B98A001797F2 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		1E27DF321643B98A001797F2 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		1E27DF3A1643B98A001797F2 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		1E27DF3B1643B98A001797F2 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		1E2FAFF616676482003F3CA6 /* israel-post-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "israel-post-logo.jpg"; sourceTree = "<group>"; };
+		1E2FAFF916676E5F003F3CA6 /* israel-post-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "israel-post-logo.png"; path = "IsraelPost/israel-post-logo.png"; sourceTree = "<group>"; };
+		1E2FAFFB16676E67003F3CA6 /* israel-post-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "israel-post-logo.png"; sourceTree = "<group>"; };
+		1E60039F1643CC6400DB9A11 /* israel-post-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "israel-post-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +92,9 @@
 		1E27DE8E1643AFA2001797F2 = {
 			isa = PBXGroup;
 			children = (
+				1E2FAFFB16676E67003F3CA6 /* israel-post-logo.png */,
+				1E2FAFF916676E5F003F3CA6 /* israel-post-logo.png */,
+				1E2FAFF616676482003F3CA6 /* israel-post-logo.jpg */,
 				1E27DEA31643AFA3001797F2 /* IsraelPost */,
 				1E27DEC01643AFA3001797F2 /* IsraelPostTests */,
 				1E27DE9C1643AFA3001797F2 /* Frameworks */,
@@ -114,9 +134,11 @@
 		1E27DEA31643AFA3001797F2 /* IsraelPost */ = {
 			isa = PBXGroup;
 			children = (
+				1E27DF1B1643B98A001797F2 /* hpple */,
 				1E27DEAF1643AFA3001797F2 /* IPAppDelegate.h */,
 				1E27DEB01643AFA3001797F2 /* IPAppDelegate.m */,
 				1E27DEB21643AFA3001797F2 /* MainMenu.xib */,
+				1E27DED51643B0E5001797F2 /* Resources */,
 				1E27DEA41643AFA3001797F2 /* Supporting Files */,
 			);
 			path = IsraelPost;
@@ -151,6 +173,27 @@
 				1E27DEC31643AFA3001797F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E27DED51643B0E5001797F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E60039F1643CC6400DB9A11 /* israel-post-logo.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E27DF1B1643B98A001797F2 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				1E27DF2F1643B98A001797F2 /* TFHpple.h */,
+				1E27DF301643B98A001797F2 /* TFHpple.m */,
+				1E27DF311643B98A001797F2 /* TFHppleElement.h */,
+				1E27DF321643B98A001797F2 /* TFHppleElement.m */,
+				1E27DF3A1643B98A001797F2 /* XPathQuery.h */,
+				1E27DF3B1643B98A001797F2 /* XPathQuery.m */,
+			);
+			path = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +271,10 @@
 				1E27DEA81643AFA3001797F2 /* InfoPlist.strings in Resources */,
 				1E27DEAE1643AFA3001797F2 /* Credits.rtf in Resources */,
 				1E27DEB41643AFA3001797F2 /* MainMenu.xib in Resources */,
+				1E6003A01643CC6400DB9A11 /* israel-post-logo.jpg in Resources */,
+				1E2FAFF716676482003F3CA6 /* israel-post-logo.jpg in Resources */,
+				1E2FAFFA16676E60003F3CA6 /* israel-post-logo.png in Resources */,
+				1E2FAFFC16676E67003F3CA6 /* israel-post-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +311,9 @@
 			files = (
 				1E27DEAA1643AFA3001797F2 /* main.m in Sources */,
 				1E27DEB11643AFA3001797F2 /* IPAppDelegate.m in Sources */,
+				1E27DF4B1643B98A001797F2 /* TFHpple.m in Sources */,
+				1E27DF4C1643B98A001797F2 /* TFHppleElement.m in Sources */,
+				1E27DF521643B98A001797F2 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +430,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IsraelPost/IsraelPost-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "IsraelPost/IsraelPost-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,7 +444,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IsraelPost/IsraelPost-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "IsraelPost/IsraelPost-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +501,7 @@
 				1E27DECD1643AFA3001797F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E27DECE1643AFA3001797F2 /* Build configuration list for PBXNativeTarget "IsraelPostTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +510,7 @@
 				1E27DED01643AFA3001797F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
